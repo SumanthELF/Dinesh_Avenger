@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="chromebrowser" value="ELF42_43_chrome"></parameter>
+    <classes>
+      <class name="batchExecution_01.bukkati"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
